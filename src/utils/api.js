@@ -1,6 +1,6 @@
 export const getSnippets = async () => {
   const response = await fetch(
-    "https://react-router-9b414-default-rtdb.firebaseio.com/snippets.json"
+    "https://codeeter-default-rtdb.asia-southeast1.firebasedatabase.app/snippets.json"
   );
 
   if (!response.ok) {
@@ -12,7 +12,7 @@ export const getSnippets = async () => {
 
 export const getSnippet = async (id) => {
   const response = await fetch(
-    `https://react-router-9b414-default-rtdb.firebaseio.com/snippets/${id}.json`
+    `https://codeeter-default-rtdb.asia-southeast1.firebasedatabase.app/snippets/${id}.json`
   );
 
   if (!response.ok) {
@@ -24,7 +24,7 @@ export const getSnippet = async (id) => {
 
 export const addSnippet = (snippet) => {
   const response = fetch(
-    "https://react-router-9b414-default-rtdb.firebaseio.com/snippets.json",
+    "https://codeeter-default-rtdb.asia-southeast1.firebasedatabase.app/snippets.json",
     {
       method: "POST",
       headers: {
