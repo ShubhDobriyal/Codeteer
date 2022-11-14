@@ -12,7 +12,7 @@ const SnippetDetail = () => {
 
   useEffect(() => {
     fetch(
-      `https://react-router-9b414-default-rtdb.firebaseio.com/snippets/${postId}.json`
+      `https://codeeter-default-rtdb.asia-southeast1.firebasedatabase.app/snippets/${postId}.json`
     )
       .then((res) => {
         if (!res.ok) {
