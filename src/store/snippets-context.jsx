@@ -12,7 +12,7 @@ export const SnippetContextProvider = (props) => {
 
   const fetchSnippetsHandler = () => {
     fetch(
-      "https://react-router-9b414-default-rtdb.firebaseio.com/snippets.json"
+      "https://codeeter-default-rtdb.asia-southeast1.firebasedatabase.app/snippets.json"
     )
       .then((res) => {
         if (!res.ok) {
