@@ -5,7 +5,7 @@ import { validateEmail } from "../../helpers/validations";
 import AuthContext from "../../store/auth-context";
 
 const API_BASE_URL = "https://identitytoolkit.googleapis.com/v1/accounts:";
-const API_KEY = "AIzaSyBRtpbecfbyUMzENjNaHP-HPeKzPSGFZzk";
+const API_KEY = "AIzaSyAfFN99SuEl87WX4eN_8RZv4g5THxXS2C8";
 
 const AuthForm = () => {
   const [isLogin, setIsLogin] = useState(true);
